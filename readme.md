@@ -30,7 +30,7 @@ ClickMonitorDDC requires Windows 7, 8 or 10.
 You use this software at your own risk, I disclaim any responsibility for any harm.
 You are allowed to use and spread this program for free.
 
-![monitor](images/monitor.png)
+![window](images/window.png)
 ![general](images/general.png)
 ![autorun](images/autorun.png)
 ![hotkeys](images/hotkeys.png)
