@@ -37,7 +37,8 @@ You are allowed to use and spread this program for free.
 ![mousewheel](images/mousewheel.png)
 ![menuentries](images/menuentries.png)
 
-|                                               commandline-usage                                                    |
+## Command Line Usage
+
 |:--------:|:-----------------:|----------|--------------------------------------------------------------------------|
 | Argument |      optional     |   Value  |                                Description                               |
 |     b    |       + or -      |  0 - 100 |                    set brightness (e.g. b 50 or b+50)                    |
