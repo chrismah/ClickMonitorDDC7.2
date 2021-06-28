@@ -30,6 +30,7 @@ ClickMonitorDDC requires Windows 7, 8 or 10.
 You use this software at your own risk, I disclaim any responsibility for any harm.
 You are allowed to use and spread this program for free.
 
+## Screenshots
 ![window](images/window.png)
 ![general](images/general.png)
 ![autorun](images/autorun.png)
@@ -38,7 +39,6 @@ You are allowed to use and spread this program for free.
 ![menuentries](images/menuentries.png)
 
 ## Command Line Usage
-
 |:--------:|:-----------------:|----------|--------------------------------------------------------------------------|
 | Argument |      optional     |   Value  |                                Description                               |
 |     b    |       + or -      |  0 - 100 |                    set brightness (e.g. b 50 or b+50)                    |
@@ -69,6 +69,14 @@ You are allowed to use and spread this program for free.
 |     !    |                   |          |                   starts any program e.g. ! notepad.exe                  |
 |     d    |                   |          |             returns current Monitor-brightness as errorlevel             |
 |     e    |                   |          |              returns current Monitor-contrast as errorlevel              |
+
+|        Name        |  Function  | IP Address | Operating System |
+|:------------------:|:----------:|:----------:|:----------------:|
+| JumpBoxProvisioner |   Gateway  |  10.1.0.4  |       Linux      |
+|       ELK-VM       | Monitoring |  10.2.0.5  |       Linux      |
+|        Web-1       | Web Server |  10.1.0.5  |       Linux      |
+|        Web-2       | Web Server |  10.1.0.6  |       Linux      |
+|        Web-3       | Web Server |  10.1.0.11 |       Linux      |
 
 If you are using multiple monitors, you can start command-line with selecting a special monitor, the following arguments will be applied to this selected monitor. 
 
