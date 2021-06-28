@@ -31,36 +31,36 @@ You use this software at your own risk, I disclaim any responsibility for any ha
 You are allowed to use and spread this program for free.
 
 ## Command Line Usage
-|:--------:|:-----------------:|----------|:------------------------------------------------------------------------:|
-| Argument |      optional     |   Value  |                                Description                               |
-|     b    |       + or -      |  0 - 100 |                    set brightness (e.g. b 50 or b+50)                    |
-|     c    |       + or -      |  0 - 100 |                      set contrast (e.g c 47 or c-47)                     |
-|     r    |       + or -      |  0 - 255 |                             set red-luminance                            |
-|     g    |       + or -      |  0 - 255 |                            set green-luminance                           |
-|     l    |       + or -      |  0 - 255 |                            set blue-luminance                            |
-|     p    |                   |   6500k  |            select color-temperature, User for changing colors            |
-|     j    |                   | Standard |                      select monitor-specific presets                     |
-|     s    |                   |   HDMI1  |              select monitor-input (HDMI,DisplayPort,DVI,VGA)             |
-|     k    |       + or -      |  0 - 100 |             sets color-saturation/vibrance in graphics driver            |
-|     o    |       + or -      |  0 - 100 |                 sets volume for monitor-speaker/Audio-out                |
-|     v    |       + or -      |  0 - 100 |                            sets default-volume                           |
-|     m    |                   |          |                           mutes default-volume                           |
-|     u    |                   |          |                          unmutes default-volume                          |
-|     n    |                   |   0 - 1  |                        disables or enables dimming                       |
-|     y    |                   |   0 - 1  |              disables or enables using brightness for target             |
-|     ?    |                   |          |            notification for current brightness/contrast/volume           |
-|     w    |                   |          |            rotates display orientation clockwise by 90 degrees           |
-|     x    |                   |          |                all monitors off (or specify monitorname x)               |
-|     f    |                   |          |                 restore default Monitor-factory-settings                 |
-|     t    |                   |          | for instance   t b 0 c 0 t b 90 c 80 toggles between b0 c0 and b 90 c 80 |
-|     ;    |                   |          |                pauses 100 ms (can be used multiple times)                |
-|     ,    |                   |          |                pauses 1000 ms (can be used multiple times)               |
-|     #    |                   |          |                      following commands are ignored                      |
-|     q    |                   |          |                        terminates ClickMonitorDDC                        |
-|     z    |                   |          |                         restarts ClickMonitorDDC                         |
-|     !    |                   |          |                   starts any program e.g. ! notepad.exe                  |
-|     d    |                   |          |             returns current Monitor-brightness as errorlevel             |
-|     e    |                   |          |              returns current Monitor-contrast as errorlevel              |
+| Argument | optional |   Value  |                               Description                               |
+|:--------:|:--------:|:--------:|:-----------------------------------------------------------------------:|
+|     b    |  + or -  |  0 - 100 |                    set brightness (e.g. b 50 or b+50)                   |
+|     c    |  + or -  |  0 - 100 |                     set contrast (e.g c 47 or c-47)                     |
+|     r    |  + or -  |  0 - 255 |                            set red-luminance                            |
+|     g    |  + or -  |  0 - 255 |                           set green-luminance                           |
+|     l    |  + or -  |  0 - 255 |                            set blue-luminance                           |
+|     p    |          |   6500k  |            select color-temperature, User for changing colors           |
+|     j    |          | Standard |                     select monitor-specific presets                     |
+|     s    |          |   HDMI1  |             select monitor-input (HDMI,DisplayPort,DVI,VGA)             |
+|     k    |  + or -  |  0 - 100 |            sets color-saturation/vibrance in graphics driver            |
+|     o    |  + or -  |  0 - 100 |                sets volume for monitor-speaker/Audio-out                |
+|     v    |  + or -  |  0 - 100 |                           sets default-volume                           |
+|     m    |          |          |                           mutes default-volume                          |
+|     u    |          |          |                          unmutes default-volume                         |
+|     n    |          |   0 - 1  |                       disables or enables dimming                       |
+|     y    |          |   0 - 1  |             disables or enables using brightness for target             |
+|     ?    |          |          |           notification for current brightness/contrast/volume           |
+|     w    |          |          |           rotates display orientation clockwise by 90 degrees           |
+|     x    |          |          |               all monitors off (or specify monitorname x)               |
+|     f    |          |          |                 restore default Monitor-factory-settings                |
+|     t    |          |          | for instance t b 0 c 0 t b 90 c 80  toggles between b0 c0 and b 90 c 80 |
+|     ;    |          |          |                pauses 100 ms (can be used multiple times)               |
+|     ,    |          |          |               pauses 1000 ms (can be used multiple times)               |
+|     #    |          |          |                      following commands are ignored                     |
+|     q    |          |          |                        terminates ClickMonitorDDC                       |
+|     z    |          |          |                         restarts ClickMonitorDDC                        |
+|     !    |          |          |                  starts any program e.g. ! notepad.exe                  |
+|     d    |          |          |             returns current Monitor-brightness as errorlevel            |
+|     e    |          |          |              returns current Monitor-contrast as errorlevel             |
 
 
 If you are using multiple monitors, you can start command-line with selecting a special monitor, the following arguments will be applied to this selected monitor. 
