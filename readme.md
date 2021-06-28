@@ -1,5 +1,7 @@
 # ClickMonitorDDC 7.2
+This information was pulled from the official website (<https://www.clickmonitorddc.bplaced.net/>) before it went down. Saved here for reference.
 
+## Information
 Click taskbar notification icons to adjust the real monitor-backlight-brightness/contrast
 or use mouse wheel over notification icons to increase/decrease corresponding value,
 much more comfortable and faster than manually messing around with monitor buttons,
