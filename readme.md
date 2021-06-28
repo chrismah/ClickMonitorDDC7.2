@@ -1,4 +1,4 @@
-#ClickMonitorDDC 7.2
+# ClickMonitorDDC 7.2
 
 Click taskbar notification icons to adjust the real monitor-backlight-brightness/contrast
 or use mouse wheel over notification icons to increase/decrease corresponding value,
@@ -77,7 +77,7 @@ If you pause the mouse pointer over the listed monitor there will appear a toolt
 
 Monitornumber means position of the listedmonitor, but using monitornumber is not recommended, because sometimes Windows changes positions. If specifying monitorname, modelname or serialnumber, omit spaces, for instance HP w2207 must be written as HPw2207 or use "HP w2207" at least use two chars, so HP would do.
 
-##More Information
+## More Information
 For controlling your monitor over monitorcable, a fully functional graphics driver has to be installed, and make sure your monitor
 has DDC/CI-protocol enabled, also your monitor must support MCCS (VESA Monitor Control Command Set), but monitors differ
 in implementing MCCS, so not all arguments may work, especially selecting color-profiles and inputs are often not fully supported,
