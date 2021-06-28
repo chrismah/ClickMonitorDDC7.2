@@ -30,16 +30,8 @@ ClickMonitorDDC requires Windows 7, 8 or 10.
 You use this software at your own risk, I disclaim any responsibility for any harm.
 You are allowed to use and spread this program for free.
 
-## Screenshots
-![window](images/window.png)
-![general](images/general.png)
-![autorun](images/autorun.png)
-![hotkeys](images/hotkeys.png)
-![mousewheel](images/mousewheel.png)
-![menuentries](images/menuentries.png)
-
 ## Command Line Usage
-|:--------:|:-----------------:|----------|--------------------------------------------------------------------------|
+|:--------:|:-----------------:|----------|:------------------------------------------------------------------------:|
 | Argument |      optional     |   Value  |                                Description                               |
 |     b    |       + or -      |  0 - 100 |                    set brightness (e.g. b 50 or b+50)                    |
 |     c    |       + or -      |  0 - 100 |                      set contrast (e.g c 47 or c-47)                     |
@@ -70,13 +62,6 @@ You are allowed to use and spread this program for free.
 |     d    |                   |          |             returns current Monitor-brightness as errorlevel             |
 |     e    |                   |          |              returns current Monitor-contrast as errorlevel              |
 
-|        Name        |  Function  | IP Address | Operating System |
-|:------------------:|:----------:|:----------:|:----------------:|
-| JumpBoxProvisioner |   Gateway  |  10.1.0.4  |       Linux      |
-|       ELK-VM       | Monitoring |  10.2.0.5  |       Linux      |
-|        Web-1       | Web Server |  10.1.0.5  |       Linux      |
-|        Web-2       | Web Server |  10.1.0.6  |       Linux      |
-|        Web-3       | Web Server |  10.1.0.11 |       Linux      |
 
 If you are using multiple monitors, you can start command-line with selecting a special monitor, the following arguments will be applied to this selected monitor. 
 
@@ -152,3 +137,11 @@ e.g.  setVCP 0x10    50  sets monitor-brightness to 50, same as b 50
 e.g.  setVCP 0x10 + 10  increases actual monitor-brightness by 10, same as b + 10
 but you should not use setVCP or getVCP, because in rare cases it could harm your monitor,
 if you really want to dig deeper in VCP-codes, then use softMCCS from EnTech Taiwan and read MCCS-documentation.
+
+## Screenshots
+![window](images/window.png)
+![general](images/general.png)
+![autorun](images/autorun.png)
+![hotkeys](images/hotkeys.png)
+![mousewheel](images/mousewheel.png)
+![menuentries](images/menuentries.png)
